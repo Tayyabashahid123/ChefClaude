@@ -1,23 +1,22 @@
-# ChefClaude 🍳
+# ChefClaude
 
 **Live Demo:** [yourchef.netlify.app](https://yourchef.netlify.app/)
 
-**ChefClaude** is a React-based AI-powered recipe generator.  
-Simply enter your available ingredients, and “Chef Claude” will whip up a creative recipe for you in no time.
+**ChefClaude** is a React-based AI-powered recipe generator. Simply enter four or more ingredients, and “Chef Claude” will whip up a creative recipe in no time.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- AI-powered recipe generation  
-- Simple, clean, and responsive UI  
-- Instant suggestions based on your input ingredients  
+- User inputs ingredients
+- Generates recipe suggestions via AI (e.g. Chef Claude API)
+- Clean, minimal UI for fast interaction
 
 ---
 
-## 🌐 Live Preview
+##  Live Preview
 
-Check it out here: **[yourchef.netlify.app](https://yourchef.netlify.app/)**
+Check out the app live here: **[yourchef.netlify.app](https://yourchef.netlify.app/)**
 
 ---
 
@@ -31,13 +30,13 @@ Follow these steps to run the project locally and deploy it.
 ```bash
 git clone <repo-url>
 cd ChefClaude
+```
 
-
-Step 2 — Install dependencies
+### **Step 2 — Install dependencies**
 Make sure you have Node.js installed. Then run:
 npm install
 
-Step 3 — Run locally
+### **Step 3 — Run locally**
 npm start
 
 
