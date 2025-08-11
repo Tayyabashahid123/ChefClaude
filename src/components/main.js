@@ -32,7 +32,8 @@ export default function Main(){
 
     console.log(RecipeSection)
     useEffect(() => {
-        if(recipeShown != [] && RecipeSection.current != null ){
+        
+        if(recipeShown != null && RecipeSection.current !== null ){
         console.log("recipe shown")
         RecipeSection.current.scrollIntoView({behavior: "smooth"})
         }
@@ -52,10 +53,3 @@ export default function Main(){
     </>
 }
 
-
-    /**
-     * Problem:
-     * We want to scroll the "Ready for a recipe?" div into view
-     * ONLY AFTER the ClaudeRecipe section is rendered to the page 
-     * (i.e. when `recipe` is not an empty string). How can we do that?
-     */
